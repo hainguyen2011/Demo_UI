@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="grid wide">
+        <h1 class="heading">Đăng ký khám bệnh</h1>
+        <div class="row">
+            <div class="col l-3"></div>
+            <div class="col l-9">
+                <h2 class="info-label">Vui lòng chọn bác sĩ</h2>
+                <div class="row info-header">
+                    <div class="col l-1">STT</div>
+                    <div class="col l-3">Họ và tên</div>
+                    <div class="col l-2">Giới tính</div>
+                    <div class="col l-2">Chuyên khoa</div>
+                    <div class="col l-2">Lịch khám</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col l-3">
+                <form class="search">
+                    <div class="search-header">
+                        TÌM BÁC SĨ
+                    </div>
+                    <div class="search-name">
+                        Họ tên bác sĩ
+                        <input type="text" name="" id="" class="search-name-input">
+                    </div>
+
+                    <div class="search-sex">
+                        Giới tính
+                        <div class="search-sex-choose">
+                            <input type="radio" id="Male" name="sex" value="">
+                            <label for="Male">Nam</label>
+                            <input type="radio" id="Female" name="sex" value="">
+                            <label for="Female">Nữ</label>
+                        </div>
+                    </div>
+
+                    <div class="search-specialist">
+                        Chuyên khoa
+                        <div>
+                            <select id="" name="Chọn hết" class="search-select">
+                                <option value="">Chọn hết</option>
+                                <option value="">Khoa Tim Mạch</option>
+                                <option value="">Khoa Thần Kinh</option>
+                                <option value="">Khoa Ung Bướu</option>
+                                <option value="">Khoa Nhi</option>
+                                <option value="">Khoa Tai Mũi Họng</option>
+                                <option value="">Khoa Mắt</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="search-calendar">
+                        Lịch khám
+                        <div>
+                            <select id="" name="Chọn hết" class="search-select">
+                                <option value="">Chọn hết</option>
+                                <option value="">Thứ 2</option>
+                                <option value="">Thứ 3</option>
+                                <option value="">Thứ 4</option>
+                                <option value="">Thứ 5</option>
+                                <option value="">Thứ 6</option>
+                                <option value="">Thứ 7</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button class="search-btn">
+                        <i class="ti-search"></i>
+                        Tìm kiếm
+                    </button>
+                </form>
+            </div>
+            <div class="col l-9">
+                <div class="row info">
+                    <div class="col l-1">1</div>
+                    <div class="col l-3">Nguyễn Văn A</div>
+                    <div class="col l-2">Nam</div>
+                    <div class="col l-2">Khoa Tim Mạch</div>
+                    <div class="col l-2">
+                        Sáng: thứ 2,<br>
+                        Chiều: thứ 4
+                    </div>
+                    <div class="col l-2">
+                        <a href="./calendar-1.html" class="info-btn">
+                            Đặt khám
+                        </a>
+                    </div>
+                </div>
+                <div class="row info">
+                    <div class="col l-1">2</div>
+                    <div class="col l-3">Nguyễn Văn B</div>
+                    <div class="col l-2">Nam</div>
+                    <div class="col l-2">Khoa Mắt</div>
+                    <div class="col l-2">
+                        Chiều: thứ 2
+                    </div>
+                    <div class="col l-2">
+                        <a href="./calendar-2.html" class="info-btn">
+                            Đặt khám
+                        </a>
+                    </div>
+                </div>
+                <div class="row info">
+                    <div class="col l-1">3</div>
+                    <div class="col l-3">Võ Thị C</div>
+                    <div class="col l-2">Nữ</div>
+                    <div class="col l-2">Khoa Nhi</div>
+                    <div class="col l-2">
+                        Sáng: thứ 3
+                    </div>
+                    <div class="col l-2">
+                        <a href="./calendar-3.html" class="info-btn">
+                            Đặt khám
+                        </a>
+                    </div>
+                </div>
+                <div class="row info">
+                    <div class="col l-1">4</div>
+                    <div class="col l-3">Nguyễn Văn D</div>
+                    <div class="col l-2">Nam</div>
+                    <div class="col l-2">Khoa Tai Mũi Họng</div>
+                    <div class="col l-2">
+                        Chiều: thứ 3, thứ 7
+                    </div>
+                    <div class="col l-2">
+                        <a href="./calendar-4.html" class="info-btn">
+                            Đặt khám
+                        </a>
+                    </div>
+                </div>
+                <div class="row info">
+                    <div class="col l-1">5</div>
+                    <div class="col l-3">Trần Văn E</div>
+                    <div class="col l-2">Nam</div>
+                    <div class="col l-2">Khoa Thần Kinh</div>
+                    <div class="col l-2">
+                        Chiều: thứ 4
+                    </div>
+                    <div class="col l-2">
+                        <a href="./calendar-5.html" class="info-btn">
+                            Đặt khám
+                        </a>
+                    </div>
+                </div>
+                <div class="row info">
+                    <div class="col l-1">6</div>
+                    <div class="col l-3">Võ Thị F</div>
+                    <div class="col l-2">Nữ</div>
+                    <div class="col l-2">Khoa Ung Bướu</div>
+                    <div class="col l-2">
+                        Sáng: thứ 2
+                    </div>
+                    <div class="col l-2">
+                        <a href="./calendar-6.html" class="info-btn">
+                            Đặt khám
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col l-3"></div>
+            <div class="col l-9">
+                <ul class="pagination">
+                    <li class="pagination__item">
+                        <a href="" class="pagination__item-link">
+                            <i class="pagination__item-icon ti-angle-left"></i>
+                        </a>
+                    </li>
+                    <li class="pagination__item pagination__item--active">
+                        <a href="" class="pagination__item-link">
+                            1
+                        </a>
+                    </li>
+                    <li class="pagination__item">
+                        <a href="" class="pagination__item-link">
+                            2
+                        </a>
+                    </li>
+                    <li class="pagination__item">
+                        <a href="" class="pagination__item-link">
+                            3
+                        </a>
+                    </li>
+                    <li class="pagination__item">
+                        <a href="" class="pagination__item-link">
+                            4
+                        </a>
+                    </li>
+                    <li class="pagination__item">
+                        <a href="" class="pagination__item-link">
+                            5
+                        </a>
+                    </li>
+                    <li class="pagination__item">
+                        <a href="" class="pagination__item-link">
+                            ...
+                        </a>
+                    </li>
+                    <li class="pagination__item">
+                        <a href="" class="pagination__item-link">
+                            12
+                        </a>
+                    </li>
+                    <li class="pagination__item">
+                        <a href="" class="pagination__item-link">
+                            <i class="pagination__item-icon ti-angle-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

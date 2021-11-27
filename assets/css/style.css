@@ -1,0 +1,269 @@
+.heading {
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin: 24px;
+}
+
+.info-label {
+    text-transform: uppercase;
+    font-size: 16px;
+    border-left: #2E9CF4 solid 4px;
+    padding-left: 10px;
+    font-weight: 600;
+    margin: 12px 18px 24px -12px;
+}
+
+
+.search {
+    border: #ccc solid 1px;
+}
+
+.search-header {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgb(49,157,244);
+    padding: 15px;
+}
+
+.search-name,
+.search-sex,
+.search-specialist,
+.search-calendar {
+    font-size: 14px;
+    padding: 15px 15px 0px;
+}
+
+.search-name-input {
+    padding: 6px 12px;
+}
+
+.search-sex-choose {
+    font-size: 12px;
+}
+
+.search-select {
+    height: 32px;
+    width: 100%;
+}
+
+.search-btn,
+.info-btn,
+.calendar-btn {
+    background-color: #2E9CF4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    border: none;
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 8px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.search-btn:hover {
+    opacity: 0.8;
+}
+
+.info-header {
+    font-size: 13px;
+    padding: 12px 0;
+    font-weight: 600;
+}
+
+.info {
+    font-size: 13px;
+    padding: 6px 0;
+    border: #ccc solid 1px;
+}
+
+.info:hover {
+    color: #2E9CF4;
+}
+
+
+
+.info-btn {
+    font-size: 12px;
+    margin: 0;
+    margin-left: 18px;
+    text-decoration: none;
+    text-align: center;
+    transition: transform linear 0.2s;
+}
+
+.info-btn:hover {
+    transform: translateY(-2px);
+} 
+
+.info:hover .info-btn {
+    background-color: #19B934;
+}
+
+
+
+/* Pagination */
+
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.pagination__item {
+    margin: 0 12px;
+}
+
+.pagination__item:hover {
+    opacity: 0.6;
+}
+
+.pagination__item--active .pagination__item-link {
+    background-color: #2E9CF4;
+    color: #fff;
+}
+
+.pagination__item-link {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    color: #939393;
+    min-width: 34px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 2px;
+}
+
+.pagination__item--active .pagination__item-link:hover {
+    opacity: 0.8;
+}
+
+.pagination__item-icon {
+
+}
+
+
+
+
+
+
+/* Calendar */
+
+.month {
+    color: #307be7;
+    font-size: 18px;
+    text-align: center;
+    padding: 25px 10px;
+    border: #2E9CF4 solid 1px;
+}
+
+.week {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px;
+    border: #ccc solid 1px;
+    background-color: #eee;
+}
+
+.week--special {
+    color: rgb(249,83,31);
+}
+
+.days {
+    font-size: 14px;
+    font-weight: 100;
+    color: #ccc;
+    text-align: center;
+    padding: 15px;
+    border: #ccc solid 1px;
+    user-select: none;
+    cursor: no-drop;
+}
+
+.days--special {
+    color: #000;
+    cursor: pointer;
+    display: block;
+}
+
+.days--special:hover {
+    background-color: #19B934;
+}
+
+
+.option-1:checked ~ .days--special-1,
+.option-8:checked ~ .days--special-8,
+.option-10:checked ~ .days--special-10,
+.option-15:checked ~ .days--special-15,
+.option-17:checked ~ .days--special-17,
+.option-22:checked ~ .days--special-22,
+.option-24:checked ~ .days--special-24,
+.option-29:checked ~ .days--special-29 {
+    background-color: #19B934;
+}
+
+
+.calendar-btn {
+    margin-left: auto;
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 10px 40px;
+}
+
+.calendar-btn-back {
+    color: #333;
+    border: #333 solid 1px;
+    background-color: #fff;
+}
+
+.calendar-btn-next {
+    color: #fff;
+    background-color: #307be7;
+     
+}
+
+
+
+
+/* Report */
+
+.subheading {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.name,
+.data {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-bottom: #307be7 solid 1px;
+}
+
+.data {
+    border: none;
+}
+
+
+.infor-label,
+.infor-data {
+    font-size: 14px;
+    color: #333;
+    padding: 4px 12px;
+}
